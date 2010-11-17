@@ -8,7 +8,7 @@ It reads a bunch of Event Log files (*.evt) and automatically groups related Eve
 Once the analysis is complete, it writes out a CSV each for every group of related events found, and a summary text with a bunch of statistics.
 You can provide it some filters that tell it to look at only the Event Log records that match a certain criteria.
 
-Warning: It could be quite slow if you're processing a large number of Event Log records.
+Warning: It can be quite slow if you're processing a large number of Event Log records.
 
 Hopefully, I'll get around to fixing the performance when I get some time (now that I've reopened the project after over 3 years :D).
 
@@ -31,8 +31,8 @@ Hopefully, I'll get around to fixing the performance when I get some time (now t
 
 References
 ----------
-* CodeProject article on parsing Event Log files: http://www.codeproject.com/KB/string/EventLogParser.aspx, by [J a a n s](http://www.codeproject.com/Members/J-a-a-n-s)
-* MSDN Reference on Event Log file format: http://msdn.microsoft.com/en-us/library/bb309026(VS.85).aspx
+* CodeProject article on parsing Event Log files: (http://www.codeproject.com/KB/string/EventLogParser.aspx), by [J a a n s](http://www.codeproject.com/Members/J-a-a-n-s)
+* MSDN Reference on Event Log file format: (http://msdn.microsoft.com/en-us/library/bb309026(VS.85).aspx)
 
 TODO:
 -----
