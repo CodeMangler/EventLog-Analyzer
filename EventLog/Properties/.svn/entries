@@ -1,0 +1,40 @@
+8
+
+dir
+123
+svn://pal/EventLog/trunk/EventLog/Properties
+svn://pal
+
+
+
+2007-07-24T19:41:03.281250Z
+104
+pal
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+168c17fe-db3f-4e4d-a451-3460bad92810
+
+AssemblyInfo.cs
+file
+
+
+
+
+2007-07-27T11:01:52.212044Z
+3e28faca8806f58214971a170b6ecf8c
+2007-07-24T19:41:03.281250Z
+104
+pal
+

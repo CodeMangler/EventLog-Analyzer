@@ -1,0 +1,160 @@
+8
+
+dir
+124
+svn://localhost/EventLogAnalyzer/Console%20Client
+svn://localhost
+
+
+
+2007-07-30T12:34:44.292290Z
+124
+pal
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+168c17fe-db3f-4e4d-a451-3460bad92810
+
+InputFilterArguments.cs
+file
+
+
+
+
+2007-07-26T19:47:59.406250Z
+f5a071c07ef169e1875d9ddbb2968f8c
+2007-07-26T19:54:33.890625Z
+110
+pal
+
+Console Client.csproj
+file
+125
+
+
+
+2007-08-01T10:43:16.437500Z
+3f1aa6ff26e6216b914c12f1bf6b1d0f
+2007-08-01T11:20:29.390625Z
+125
+pal
+
+FuzzyComparer
+dir
+
+OutputFilterArguments.cs
+file
+
+
+
+
+2007-07-27T06:21:17.356716Z
+2987a7884ef97a80053c90d265331af4
+2007-07-27T06:40:21.229664Z
+112
+pal
+
+ILogRecordClassifier.cs
+file
+125
+
+
+
+2007-08-01T10:42:56.140625Z
+5e54e81d517af0ba38df44fdc947764f
+2007-08-01T11:20:29.390625Z
+125
+pal
+
+Filters
+dir
+
+ProcessControlArguments.cs
+file
+
+
+
+
+2007-07-24T20:16:59.343750Z
+866bd9b7ec855ce2c74e8aaf823ab299
+2007-07-24T20:20:48.421875Z
+106
+pal
+
+Reporting
+dir
+
+LogRecordClassifier.cs
+file
+125
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+deleted
+
+CLI.cs
+file
+126
+
+
+
+2007-08-02T05:58:49.826926Z
+353c459a75068f189ff886474e0a6bcc
+2007-08-02T05:58:57.607977Z
+126
+pal
+
+CommandLineArgumentHandler.cs
+file
+
+
+
+
+2007-07-26T20:29:17.953125Z
+ac42a317d10be5d6c3aeffbda9905689
+2007-07-26T20:35:41.515625Z
+111
+pal
+
+EventLogRecordClassifier.cs
+file
+125
+
+
+
+2007-08-01T11:19:04.859375Z
+049c01e9101b12b41a1d7514b7f6034b
+2007-08-01T11:20:29.390625Z
+125
+pal
+
+Properties
+dir
+

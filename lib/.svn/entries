@@ -1,0 +1,41 @@
+8
+
+dir
+123
+svn://localhost/EventLogAnalyzer/lib
+svn://localhost
+
+
+
+2007-07-27T10:56:04.096649Z
+118
+pal
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+168c17fe-db3f-4e4d-a451-3460bad92810
+
+nunit.framework.dll
+file
+
+
+
+
+2007-05-03T04:55:48.000000Z
+bb8d5b3d9cd4cdfbf65e5306cb2d459f
+2007-07-24T19:46:10.000000Z
+105
+pal
+has-props
+

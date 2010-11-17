@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9F3849C7-CB75-42BF-9426-E466030D492F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>pal.EventLogAnalyzer.ConsoleClient</RootNamespace>
+    <AssemblyName>EventLogAnalyzer.ConsoleClient</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CLI.cs" />
+    <Compile Include="CommandLineArgumentHandler.cs" />
+    <Compile Include="Filters\AbstractInputFilter.cs" />
+    <Compile Include="Filters\AfterDateTimeFilter.cs" />
+    <Compile Include="Filters\AtDateTimeFilter.cs" />
+    <Compile Include="Filters\BeforeDateTimeFilter.cs" />
+    <Compile Include="Filters\EventTypeFilter.cs" />
+    <Compile Include="Filters\IInputFilter.cs" />
+    <Compile Include="Filters\IntegerEqualityFilter.cs" />
+    <Compile Include="Filters\NullFilter.cs" />
+    <Compile Include="Filters\StringContainsFilter.cs" />
+    <Compile Include="Filters\StringEqualityFilter.cs" />
+    <Compile Include="Filters\StringStartsWithFilter.cs" />
+    <Compile Include="FuzzyComparer\Aggregate.cs" />
+    <Compile Include="FuzzyComparer\FuzzyStringComparisonAlgorithm.cs" />
+    <Compile Include="FuzzyComparer\IComparisonAlgorithm.cs" />
+    <Compile Include="ILogRecordClassifier.cs" />
+    <Compile Include="InputFilterArguments.cs" />
+    <Compile Include="EventLogRecordClassifier.cs" />
+    <Compile Include="OutputFilterArguments.cs" />
+    <Compile Include="ProcessControlArguments.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reporting\AbstractSummaryWriter.cs" />
+    <Compile Include="Reporting\FileNameGenerator.cs" />
+    <Compile Include="Reporting\HtmlSummaryWriter.cs" />
+    <Compile Include="Reporting\ReportGenerator.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\TextSummaryWriter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EventLog\EventLog.csproj">
+      <Project>{540AA583-6BC3-4894-9A9F-44438F3955E5}</Project>
+      <Name>EventLog</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

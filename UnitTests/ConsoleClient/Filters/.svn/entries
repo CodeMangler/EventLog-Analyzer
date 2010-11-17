@@ -1,0 +1,16 @@
+8
+
+dir
+123
+svn://localhost/EventLogAnalyzer/UnitTests/ConsoleClient/Filters
+svn://localhost
+
+
+
+2007-07-27T10:53:27.999214Z
+117
+pal
+
+
+svn:special svn:externals svn:needs-lock
+

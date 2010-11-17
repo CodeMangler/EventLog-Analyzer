@@ -1,0 +1,9 @@
+*.suo
+*.user
+*.sln.cache
+*.resharper
+_ReSharper.*
+bin
+obj
+Debug
+Release
