@@ -31,8 +31,8 @@ Hopefully, I'll get around to fixing the performance when I get some time (now t
 
 References
 ----------
-* CodeProject article on parsing Event Log files: (http://www.codeproject.com/KB/string/EventLogParser.aspx), by [J a a n s](http://www.codeproject.com/Members/J-a-a-n-s)
-* MSDN Reference on Event Log file format: (http://msdn.microsoft.com/en-us/library/bb309026(VS.85).aspx)
+* CodeProject article on parsing Event Log files: [http://msdn.microsoft.com/en-us/library/bb309026(VS.85).aspx](http://www.codeproject.com/KB/string/EventLogParser.aspx), by [J a a n s](http://www.codeproject.com/Members/J-a-a-n-s)
+* MSDN Reference on Event Log file format: [http://msdn.microsoft.com/en-us/library/bb309026(VS.85).aspx](http://msdn.microsoft.com/en-us/library/bb309026(VS.85).aspx)
 
 TODO:
 -----
