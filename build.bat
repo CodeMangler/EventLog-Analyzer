@@ -1,8 +1,8 @@
-SET SOLUTION_DIR=C:\Workspace\Development\C#\VS.NET 2005\EventLogAnalyzer
+SET SOLUTION_DIR=C:\Workspace\Development\C#\Visual Studio\EventLog Analyzer
 SET CONSOLE_CLIENT=%SOLUTION_DIR%\Console Client
 SET EVENT_LOG=%SOLUTION_DIR%\EventLog
 SET OUTPUT_DIR=%SOLUTION_DIR%\Output
-SET PATH=%PATH%;"C:\Program Files\Microsoft Visual Studio 8\SDK\v2.0\bin"
+SET PATH="C:\Windows\Microsoft.NET\Framework\v2.0.50727";C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin;%PATH%
 
 cd "%EVENT_LOG%"
 csc /t:module /out:"%OUTPUT_DIR%\EventLog.netmodule" "%EVENT_LOG%\*.cs"

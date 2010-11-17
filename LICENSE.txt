@@ -1,0 +1,5 @@
+Copyright (c) 2007 CodeMangler
+
+This application is dual licensed.
+Non-profit and non-proprietary usages are subject to the GNU GPL License (http://www.gnu.org/licenses/gpl.html).
+Commercial and/or proprietary usage of the application and/or it's derived works must obtain a commercial license from the application's author.

@@ -4,6 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2300BCDB-659C-42FC-8539-EBC36B9FBFD4}"
 	ProjectSection(SolutionItems) = preProject
 		eventloganalyzer.build = eventloganalyzer.build
+		LICENSE.txt = LICENSE.txt
+		README.txt = README.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventLog", "EventLog\EventLog.csproj", "{540AA583-6BC3-4894-9A9F-44438F3955E5}"
