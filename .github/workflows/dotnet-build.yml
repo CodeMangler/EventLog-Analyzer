@@ -1,0 +1,30 @@
+name: .NET Build and Test
+
+on:
+  push:
+    branches: [ '*' ] # Changed to all branches for push
+  pull_request:
+    branches: [ master ] # Changed from main to master
+  workflow_dispatch: # Added for manual triggering
+
+jobs:
+  build:
+    runs-on: windows-latest # Changed to windows-latest due to EventLog dependency
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup .NET 6
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '6.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore "EventLogAnalyzer.sln"
+
+    - name: Build
+      run: dotnet build "EventLogAnalyzer.sln" --configuration Release --no-restore
+
+    - name: Test
+      run: dotnet test "EventLogAnalyzer.sln" --configuration Release --no-build --no-restore
