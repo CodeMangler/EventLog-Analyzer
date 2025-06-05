@@ -7,3 +7,9 @@ bin
 obj
 Debug
 Release
+
+# Build output folder
+Output/
+
+# Visual Studio cache
+.vs/

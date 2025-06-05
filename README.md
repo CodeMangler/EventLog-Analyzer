@@ -12,6 +12,14 @@ Warning: It can be quite slow if you're processing a large number of Event Log r
 
 Hopefully, I'll get around to fixing the performance when I get some time (now that I've reopened the project after over 3 years :D).
 
+### Building the Project
+This project is built using .NET 6. To build it:
+1. Clone the repository.
+2. Navigate to the root directory of the cloned repository.
+3. Run the command: `dotnet build EventLogAnalyzer.sln`
+
+The main executable will be found in `Console Client/bin/Debug/net6.0/` or `Console Client/bin/Release/net6.0/` depending on the build configuration.
+
 ### Commandline Options:
   Pre-filters::
     Time: -after -before -at
