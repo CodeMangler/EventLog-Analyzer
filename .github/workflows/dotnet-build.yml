@@ -2,10 +2,10 @@ name: .NET Build and Test
 
 on:
   push:
-    branches: [ '*' ] # Changed to all branches for push
+    branches: [ '*' ]
   pull_request:
-    branches: [ master ] # Changed from main to master
-  workflow_dispatch: # Added for manual triggering
+    branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   build:
